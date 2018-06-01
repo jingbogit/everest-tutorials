@@ -1,18 +1,54 @@
-# Repository {#git-repository}
+# Git {#git-repository}
 
-Place to hold the Code.
+Please watch [this video](https://www.youtube.com/watch?v=HVsySz-h9r4) if you after not familiar with the command line git. Lacking knowledge of git will lead to nightmares to you and your team.
 
-# Fork {#git-fork}
+---
 
-Make a copy of a repository.
+The following is not a tutorial. It is the git conventions of our team.
 
-# Clone {#git-clone}
+## Fork
 
-Copy a remote repository to your computer.
+This operation makes a copy of a repository.  [bitbucket fork](https://legacy.gitbook.com/book/jingbogit/everest-tutorial/edit#)
 
-# ignore
+* We call the repository that your mentor assigns to you the **upstream**. 
 
-exclude certain files to be tracked by git. e.g.
+* Always edit on your forked repository instead of the upstream. 
+
+* You would not be able to create a pull request if you did not fork from the upstream.
+
+## Clone
+
+Clone a remote repository to your computer.
+
+```
+  git clone https://github.com/<YOUR_NAME>/<REPO_NAME>
+```
+
+## Sync with upstream
+
+Your **upstream** repository may have changes during your development. To merge those changes into your repo, you first need to add the upstream as a remote \([ref](https://help.github.com/articles/adding-a-remote/)\):
+
+```
+git remote add upstream https://github.com/<UPSTREAM_NAME>/<REPO_NAME>
+```
+
+then pull the upstream code
+
+```
+git pull upstream <BRANCH_NAME>
+```
+
+If conflicts happens, fix them and commit again. The merge succeeds after all conflicts are eliminated.
+
+## Pull Request
+
+When you are ready to submit your code to review, you [create a pull request](https://www.atlassian.com/git/tutorials/making-a-pull-request). In the request, you need to notify your code reviewer, including at least your mentor.
+
+After getting comments, modify your code accordingly, sync with the upstream again. By pushing those changes to your forked repo, the pull request will automatically update.
+
+# Ignore files
+
+`.gitignore` will exclude certain files to be tracked by git. e.g.
 
 ```
 build/
@@ -20,5 +56,9 @@ node_modules/
 release/
 ```
 
+---
 
+## Large files
+
+Do not add large files like picture, video, 3D model to the git repository. 
 
