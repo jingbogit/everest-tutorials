@@ -16,6 +16,13 @@
   * [chrome-dev-tools](novice/chrome-dev-tools.md)
   * [CI](novice/ci.md)
 * [Intermediate](intermediate.md)
+  * [3D](3d.md)
+    * [graphics](3d/shader.md)
+    * [threejs](3d/threejs.md)
+    * [engine](3d/engine.md)
+    * [sdk](3d/sdk.md)
+    * [formats](3d/formats.md)
+    * [AR](3d/ar.md)
   * [Web/App](webpage.md)
     * [React](webpage/react.md)
     * Redux
@@ -27,13 +34,6 @@
     * Responsive Design
     * StyledComponents
     * Rebass
-  * [3D](3d.md)
-    * [graphics](3d/shader.md)
-    * [threejs](3d/threejs.md)
-    * [engine](3d/engine.md)
-    * [sdk](3d/sdk.md)
-    * [formats](3d/formats.md)
-    * [AR](3d/ar.md)
   * [System](system.md)
     * [GraphQL](system/graphql.md)
     * [OAuth](system/oauth.md)

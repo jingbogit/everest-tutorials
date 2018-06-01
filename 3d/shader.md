@@ -16,7 +16,9 @@ WebGL Programming Guide: Interactive 3D Graphics Programming with WebGL
 
 ---
 
-### Shadertoy
+### Shader
+
+#### Shadertoy:
 
 The most popular online shader community.
 
