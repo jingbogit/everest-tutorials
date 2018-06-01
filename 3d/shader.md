@@ -1,6 +1,6 @@
 # Computer Graphics
 
-### 
+---
 
 ### WebGL
 
@@ -25,6 +25,4 @@ The most popular online shader community.
 #### Assignments:
 
 [**shader-school**](https://github.com/stackgl/shader-school)
-
-
 

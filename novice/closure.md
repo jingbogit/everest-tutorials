@@ -2,7 +2,7 @@
 
 ## Closure
 
-[assignments](https://github.com/workshopper/scope-chains-closures)
+[scope-chains-closures](https://github.com/workshopper/scope-chains-closures)
 
 ### Promise
 

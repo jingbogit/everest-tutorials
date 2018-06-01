@@ -13,7 +13,7 @@
   * [advanced js](novice/closure.md)
   * [babel](novice/babel.md)
   * [webpack](novice/webpack.md)
-  * chrome-dev-tools
+  * [chrome-dev-tools](novice/chrome-dev-tools.md)
   * [CI](novice/ci.md)
 * [Intermediate](intermediate.md)
   * [Web/App](webpage.md)
@@ -29,13 +29,11 @@
     * Rebass
   * [3D](3d.md)
     * [graphics](3d/shader.md)
-    * [shader](3d/shader.md)
     * [threejs](3d/threejs.md)
-    * engine
+    * [engine](3d/engine.md)
     * [sdk](3d/sdk.md)
+    * [formats](3d/formats.md)
     * [AR](3d/ar.md)
-    * [epsg](3d/epsg.md)
-    * geojson
   * [System](system.md)
     * [GraphQL](system/graphql.md)
     * [OAuth](system/oauth.md)
