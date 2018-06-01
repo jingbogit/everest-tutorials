@@ -14,7 +14,9 @@ yarn add -D jest babel-jest regenerator-runtime
 
 write test scripts under `./test/`, [Reference](https://facebook.github.io/jest/).
 
-A test file example `GeoPose.test.js`: 
+A test file example `GeoPose.test.js.`
+
+The first test verifies the class is defined. The second test verifies the class creates no memory leak, and its methods are working as expected.
 
 ```js
 import GeoPose from '../src/Core/Earth/GeoPose'
@@ -42,7 +44,6 @@ describe('methods', () => {
     expect(b.lat).toBe(23.45678)
   })
 })
-
 ```
 
 ## Run tests
