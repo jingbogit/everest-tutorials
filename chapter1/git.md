@@ -10,9 +10,9 @@ The following is not a tutorial. It is the git conventions of our team.
 
 This operation makes a copy of a repository.  [bitbucket fork](https://legacy.gitbook.com/book/jingbogit/everest-tutorial/edit#)
 
-* We call the repository that your mentor assigns to you the **upstream**. 
+* We call the repository that your mentor assigns to you the **upstream**.
 
-* Always edit on your forked repository instead of the upstream. 
+* Always edit on your forked repository instead of the upstream.
 
 * You would not be able to create a pull request if you did not fork from the upstream.
 
@@ -40,7 +40,7 @@ git pull upstream <BRANCH_NAME>
 
 If conflicts happens, fix them and commit again. The merge succeeds after all conflicts are eliminated.
 
-## Pull Request
+## Pull Request {#git-pull-request}
 
 When you are ready to submit your code to review, you [create a pull request](https://www.atlassian.com/git/tutorials/making-a-pull-request). In the request, you need to notify your code reviewer, including at least your mentor.
 
@@ -60,5 +60,5 @@ release/
 
 ## Large files
 
-Do not add large files like picture, video, 3D model to the git repository. 
+Do not add large files like picture, video, 3D model to the git repository.
 

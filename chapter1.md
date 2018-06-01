@@ -15,7 +15,7 @@ A common work flow is:
 7. [Write tests](/chapter1/test.md) for your code. Or if tests exist, make sure your code will pass.
 8. [Merge with](/chapter1/git.md#sync-with-upstream) your mentor's code, resolve conflicts if exists.
 9. Commit and push the code to your repo.
-10. Submit: create a pull request to your mentor's repository. 
+10. Submit: [create a pull request](/chapter1/git.md#git-pull-request) to your mentor's repository. 
 
 # 
 

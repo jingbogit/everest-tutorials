@@ -1,5 +1,14 @@
 # Documentation Guideline
 
+We use [JsDoc3](http://usejsdoc.org/) as the documentation standard. Document your code comprehensively is essential for team work.
+
+## installation
+
+* install dependencies
+  ```
+  yarn add -D jsdoc tui-jsdoc-template
+  ```
+
 ## Format
 
 * At the beginning of each file specify `@fileoverview`, `@author`, `@copyright`.
@@ -76,12 +85,7 @@
 
 * Let us know if there are better tools.
 
-## setup
-
-* install dependencies
-  ```
-  yarn add -D jsdoc tui-jsdoc-template
-  ```
+---
 
 ## Developer documentation
 

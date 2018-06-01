@@ -1,6 +1,8 @@
 # npm
 
-The default package manager for nodejs. 
+The default package manager for nodejs.
+
+---
 
 # yarn
 
@@ -26,7 +28,11 @@ yarn add <package-name>@1.2.3
 
 Do not add new dependencies without your mentor's approval.
 
-### 
+---
+
+### node\_modules
+
+All dependencies will be installed under `.\node_modules\`. Very occasionally, npm and yarn will have mysterious bug that they cannot correctly install the dependencies. By deleting this folder, and run yarn again to re-generate this folder and its content, may fix the problem.
 
 
 

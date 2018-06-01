@@ -1,12 +1,12 @@
+# Editor
+
 You may use any editor you feel comfortable with. Nevertheless, we strongly recommend **VS Code**.
 
-# installation
+### installation
 
 [https://code.visualstudio.com/docs/setup/setup-overview](https://code.visualstudio.com/docs/setup/setup-overview)
 
-
-
-# Settings
+### Settings
 
 open `File -> Preferences -> settings`
 
@@ -23,7 +23,7 @@ open `File -> Preferences -> settings`
 }
 ```
 
-# plugins
+### recommended plugins
 
 * Docuemnt This
 * Eslint
