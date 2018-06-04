@@ -10,5 +10,5 @@ Altizure Planet is a website allows you to construct 3D scenes for presentation.
 
 [https://planets.altizure.cn/viewer?sid=5afaaa3721da7c064fe3827f&p=HyWBqvYCG&story=5afbf475ab00705d0cf88328](https://planets.altizure.cn/viewer?sid=5afaaa3721da7c064fe3827f&p=HyWBqvYCG&story=5afbf475ab00705d0cf88328)
 
-![](/assets/intermediate-3d-planet-demo.png)
+![A snapshot](/assets/intermediate-3d-planet-demo.png)
 
