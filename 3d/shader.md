@@ -1,22 +1,12 @@
-# Computer Graphics
+# Shader
+
+Our engine only supports basic shaders at the moment. It will be our next major task to enhance it.
 
 ---
 
-### WebGL
+### GLSL:
 
-#### Book:
-
-WebGL Programming Guide: Interactive 3D Graphics Programming with WebGL
-
-#### Assignments:
-
-[**IntroToWebGLWithThreeJS**](https://github.com/alexmackey/IntroToWebGLWithThreeJS)
-
-[**webgl-workshop**](https://github.com/stackgl/webgl-workshop)
-
----
-
-### Shader
+[GLSL sandbox](http://glslsandbox.com/)
 
 #### Shadertoy:
 

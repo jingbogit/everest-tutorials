@@ -6,7 +6,10 @@
 
 * [Simple applications](http://docs.altizure.cn/zh-hans/jssdk-demo.html)
 * [api demo codes](https://github.com/altizure/sdk.examples)
-*  [online api demos](https://altizure.github.io/sdk.examples/examples.sdk.html)
+* [online api demos](https://altizure.github.io/sdk.examples/examples.sdk.html)
+
+[![](/assets/intermediate-3d-sdk-demo.png)](https://altizure.github.io/sdk.examples/2-1-add-project-water/ "water demo")
+
 * [SDK documentation](https://legacy.gitbook.com/book/jingbogit/everest-tutorial/edit#)
 
 * [faq](http://docs.altizure.cn/zh-hans/jssdk-faq.html)
