@@ -1,12 +1,20 @@
 # Babel
 
+Babel translate advanced js syntax to basic ones, so all versions of browsers are able to execute the script.
+
+There is no need to know every bit of babel, but the basic usages.
+
+[Trying out JavaScript ES6 using Babel](https://medium.com/the-web-tub/trying-out-javascript-es6-using-babel-7dbd4de95835)
+
+---
+
 ### installation
 
 ```
 yarn add -D babel-core babel-cli babel-eslint babel-plugin-add-module-exports babel-plugin-transform-es2015-modules-umd babel-preset-env
 ```
 
-### configurations
+### conventional configurations
 
 config file `.babelrc` for browser:
 
@@ -22,6 +30,8 @@ config file `.babelrc` for browser:
   ]
 }
 ```
+
+---
 
 ### polyfills that are not in babel
 

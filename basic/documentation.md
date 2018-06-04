@@ -2,6 +2,8 @@
 
 We use [JsDoc3](http://usejsdoc.org/) as the documentation standard. Document your code comprehensively is essential for team work.
 
+---
+
 ## installation
 
 * install dependencies
@@ -130,6 +132,12 @@ put the config file under `./docs/` . e.g.
     }
   }
   ```
+
+---
+
+### learning material
+
+[**learn-jsdoc**](https://github.com/dwyl/learn-jsdoc)
 
 
 

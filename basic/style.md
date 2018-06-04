@@ -2,6 +2,8 @@
 
 eslint is a tool to check your code style.
 
+---
+
 ### installation
 
 ```
@@ -46,5 +48,9 @@ release/
 test/
 ```
 
+---
 
+### learning material
+
+[eslint tutorial](https://eslint.org/docs/user-guide/getting-started)
 

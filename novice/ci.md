@@ -1,10 +1,12 @@
 # Continuous Integration
 
-CI runs preset pipelines every time your push code to git. We have a docker hosted in the office. 
+CI runs preset pipelines every time your push code to git. We have a docker hosted in the office.
+
+---
 
 ### create docker image
 
-You may need permissions to create new image. Use existing ones when possible. 
+You may need permissions to create new image. Use existing ones when possible.
 
 Sample dockerfile for centos-webgl-dev-docker image:
 
@@ -29,7 +31,6 @@ RUN source ~/.bashrc \
   && npm -g i yarn 
 
 CMD source /etc/profile && bash
-
 ```
 
 ### create a yml file
@@ -71,8 +72,6 @@ engine:
     - yarn debug && yarn release && "Build passed."
     - yarn test && echo "Tests passed."
     - echo "Done"
-
-
 ```
 
 ### Secret Variable

@@ -1,8 +1,8 @@
 ## Advanced js
 
-
-
 Finish the following assignments to get the essence of javascript.
+
+---
 
 ## Closure
 

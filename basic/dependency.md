@@ -34,5 +34,13 @@ Do not add new dependencies without your mentor's approval.
 
 All dependencies will be installed under `.\node_modules\`. Very occasionally, npm and yarn will have mysterious bug that they cannot correctly install the dependencies. By deleting this folder, and run yarn again to re-generate this folder and its content, may fix the problem.
 
+---
+
+### learning material
+
+[**how-to-npm**](https://github.com/workshopper/how-to-npm)
+
+
+
 
 

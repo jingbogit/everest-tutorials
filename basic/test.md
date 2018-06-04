@@ -2,6 +2,8 @@
 
 Write tests for sustainability. We use `Jest` in our testing.
 
+---
+
 ## install
 
 `babel-jest` allows you to use es6 in your \*.test.js file. Install them if they are not in `package.json`
@@ -57,6 +59,15 @@ If test include memory heap detector, must use  single thread
 ```
 node_modules/.bin/jest --runInBand
 ```
+
+---
+
+learning material
+
+* [getting started](https://facebook.github.io/jest/docs/en/getting-started.html)
+* [Setup & Writing Our First Jest Test - JS Testing 101 with Jest](https://www.youtube.com/watch?v=4kNfeI37xu4)
+
+* [Testing JavaScript Code with Jest](https://medium.com/piecesofcode/testing-javascript-code-with-jest-18a398888838)
 
 
 

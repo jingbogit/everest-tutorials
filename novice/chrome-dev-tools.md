@@ -1,8 +1,8 @@
 # Chrome development tools
 
-
-
 The most power debugging tool for front-end.
+
+---
 
 Some common usage:
 
@@ -11,5 +11,5 @@ Some common usage:
 * use `network` to see files and requests
 * use  `profile` to monitor memory heap, computation bottleneck.
 
-https://developers.google.com/web/tools/chrome-devtools/
+[https://developers.google.com/web/tools/chrome-devtools/](https://developers.google.com/web/tools/chrome-devtools/)
 
