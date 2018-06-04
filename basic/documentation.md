@@ -100,13 +100,11 @@ yarn
 node_modules/.bin/jsdoc -c ./docs/jsdoc.tui.dev.json -r ./src/
 ```
 
-#### location
-
-./docs/dev\_docs/web/index.html
-
 #### config file
 
-put the config file under `./docs/` . e.g.
+Generate the documentation website under `./docs/dev_docs/web` , which is specified in the config file.
+
+Put the config file under `./docs/` . e.g.
 
 * ```
   {
@@ -138,6 +136,4 @@ put the config file under `./docs/` . e.g.
 ### learning material
 
 [**learn-jsdoc**](https://github.com/dwyl/learn-jsdoc)
-
-
 
