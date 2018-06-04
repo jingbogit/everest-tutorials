@@ -11,5 +11,7 @@
 * [faq](http://docs.altizure.cn/zh-hans/jssdk-faq.html)
 * [SDK change log](http://docs.altizure.cn/zh-hans/jssdk-changelog.html)
 
+---
+
 
 
