@@ -1,6 +1,7 @@
 # Enhanced skills
 
-This chapter introduces more advanced development tools which are used in our workflow. At the end of this stage,  you should be capable of manage a git repo independently.
+This chapter introduces more advanced development tools which are used in our workflow.
+At the end of this stage,  you should be capable of managing a git repo independently.
 
 ---
 
@@ -26,9 +27,6 @@ The creation of a git repo:
    6. `webpack.config.js` : webpack config
    7. `CHANGELOG.md` : change log for project's previous versions
    8. `gitlab-ci.yml` : CI for gitlab
-7. implement, test, and document.
-8. webpack your output to `./release/` folder.
-9. update  change log, publish the module.
-
-
-
+7. Implement, test, and document.
+8. Webpack your output to `./release/` folder.
+9. Update  change log, publish the module.
