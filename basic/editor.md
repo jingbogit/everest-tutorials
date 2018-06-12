@@ -43,7 +43,7 @@ trim_trailing_whitespace = false
 As different languages (JS, Go, Python) have its own styles.
 
 It is better to setup your editor to respect the `.editorconfig` file, which is commited in git.
-So that it could switch into different settings based on different projects of different type of files.
+So that it could switch into different settings based on different projects or different type of files.
 
 ### recommended plugins
 
