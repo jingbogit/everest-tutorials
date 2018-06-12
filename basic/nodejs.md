@@ -2,6 +2,8 @@
 
 Nodejs is the foundation for all frontend development.
 
+Recommended to use nvm to install node and switch between different versions.
+
 ---
 
 ## installation

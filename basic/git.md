@@ -16,6 +16,8 @@ This operation makes a copy of a repository.  [bitbucket fork](https://legacy.gi
 
 * You would not be able to create a pull request if you did not fork from the upstream.
 
+* After forking, you may need to setup CI/Pipeline and input all the required env vars, such as the NPM_TOKEN.
+
 ## Clone
 
 Clone a remote repository to your computer.
@@ -45,6 +47,10 @@ If conflicts happens, fix them and commit again. The merge succeeds after all co
 When you are ready to submit your code to review, you [create a pull request](https://www.atlassian.com/git/tutorials/making-a-pull-request). In the request, you need to notify your code reviewer, including at least your mentor.
 
 After getting comments, modify your code accordingly, sync with the upstream again. By pushing those changes to your forked repo, the pull request will automatically update.
+
+It is strongly recommended to create a PR that is as small as possible as a logical unit.
+For a big feature change, break it down into small logical sub-steps, create a PR and push each step into a feature branch separately.
+Giving a very large PR would only make others difficult to review and reason about. 
 
 # Ignore files
 
