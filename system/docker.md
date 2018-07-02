@@ -42,6 +42,20 @@ CMD ["./main"]
 - Bind mounted sources when running the container
 - Suited for dynamic languages
 - No need to rebuild or restart container when sources are updated
-```
+```bash
 docker run -v ${pwd}/src:/src
+```
+
+---
+
+##### Clean up
+
+```bash
+# remove all exited containers
+docker ps -aq --no-trunc -f status=exited | xargs docker rm
+```
+
+```bash
+# remove all dangling/untagged images
+docker images -q --filter dangling=true | xargs docker rmi
 ```
