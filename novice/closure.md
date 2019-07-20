@@ -4,7 +4,7 @@ Finish the following assignments to get the essence of javascript.
 
 ---
 
-## Closure
+### Closure
 
 [scope-chains-closures](https://github.com/workshopper/scope-chains-closures)
 
@@ -19,5 +19,7 @@ Finish the following assignments to get the essence of javascript.
 
 * [esnext-generation](https://github.com/jesstelford/esnext-generation)
 
+### Typescript
 
+[https://www.typescriptlang.org/](https://www.typescriptlang.org/)
 
