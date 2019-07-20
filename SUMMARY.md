@@ -3,6 +3,7 @@
 * [Welcome](README.md)
 * [Basic](basic.md)
   * [git](basic/git.md)
+  * [javascript](basic/javascript.md)
   * [nodejs](basic/nodejs.md)
   * [dependency](basic/dependency.md)
   * [editor](basic/editor.md)
